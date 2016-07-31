@@ -23,7 +23,7 @@ namespace SkriftMEF.SwitchToMEF.Program
 
             try
             {
-                _container.ComposeParts(this); // <== this will add into the _myCRUDVariations variable an instance of each class implementing IMyCRUDOperations that can be found in the folders accessed by the composer (default: bin)
+                _container.ComposeParts(this); // <== this will add into the _myCRUDVariations variable an instance of each class implementing IMyCRUDOperations that can be found in the folders contained in the composer catalog
             }
             catch (CompositionException compositionException)
             {

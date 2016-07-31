@@ -21,7 +21,7 @@ namespace SkriftMEF.Logging.MyProgram
 
             try
             {
-                _container.ComposeParts(this); // <== this will add into the _myLoggers variable an instance of each class implementing ILogger that can be found in the folders accessed by the composer (default: bin)
+                _container.ComposeParts(this); // <== this will add into the _myLoggers variable an instance of each class implementing ILogger that can be found in the folders contained in the composer catalog
             }
             catch (CompositionException compositionException)
             {
