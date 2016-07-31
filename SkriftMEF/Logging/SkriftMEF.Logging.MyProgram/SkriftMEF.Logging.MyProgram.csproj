@@ -52,12 +52,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Interface\SkriftMEF.Logging.Interface.csproj">
+    <ProjectReference Include="..\SkriftMEF.Logging.Interface\SkriftMEF.Logging.Interface.csproj">
       <Project>{e8f61a81-03e7-487a-a6d0-183f03c5253a}</Project>
       <Name>SkriftMEF.Logging.Interface</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="LoggingPlugins\SkriftMEF.Logging.FileLogger.dll" />
     <Content Include="LoggingPlugins\SkriftMEF.Logging.MailLogger.dll" />

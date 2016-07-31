@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Interface\SkriftMEF.Logging.Interface.csproj">
+    <ProjectReference Include="..\SkriftMEF.Logging.Interface\SkriftMEF.Logging.Interface.csproj">
       <Project>{e8f61a81-03e7-487a-a6d0-183f03c5253a}</Project>
       <Name>SkriftMEF.Logging.Interface</Name>
     </ProjectReference>

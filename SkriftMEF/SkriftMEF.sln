@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{542087FB-ADA6-4D35-97B0-04A876B9ABEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkriftMEF.Logging.Interface", "Logging\Interface\SkriftMEF.Logging.Interface.csproj", "{E8F61A81-03E7-487A-A6D0-183F03C5253A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkriftMEF.Logging.Interface", "Logging\SkriftMEF.Logging.Interface\SkriftMEF.Logging.Interface.csproj", "{E8F61A81-03E7-487A-A6D0-183F03C5253A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkriftMEF.Logging.FileLogger", "Logging\FileLogger\SkriftMEF.Logging.FileLogger.csproj", "{633D17F2-D6A3-4F0C-980E-EC77FAE1D856}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkriftMEF.Logging.FileLogger", "Logging\SkriftMEF.Logging.FileLogger\SkriftMEF.Logging.FileLogger.csproj", "{633D17F2-D6A3-4F0C-980E-EC77FAE1D856}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkriftMEF.Logging.MailLogger", "Logging\SkriftMEF.Logging.MailLogger\SkriftMEF.Logging.MailLogger.csproj", "{B6BB73E7-0736-45D8-8E24-37568D70CD38}"
 EndProject
