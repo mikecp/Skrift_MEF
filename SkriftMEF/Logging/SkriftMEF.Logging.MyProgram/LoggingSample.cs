@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SkriftMEF.Logging.Interface;
 
 namespace SkriftMEF.Logging.MyProgram
@@ -32,6 +29,7 @@ namespace SkriftMEF.Logging.MyProgram
             }
         }
 
+        // Method called by the main program
         public void DoSomeTests()
         {
             MyNotCriticalMethod();
